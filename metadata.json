@@ -1,0 +1,23 @@
+{
+  "license": "AGPL 3",
+  "description": "A module used to configure SS5\n\tA SOCKS 4/5 proxy server with various options",
+  "version": "0.0.1",
+  "dependencies": [
+
+  ],
+  "name": "mdobrev-ss5",
+  "source": "UNKNOWN",
+  "project_page": "UNKNOWN",
+  "summary": "A module to configure SS5",
+  "checksums": {
+    "manifests/params.pp": "b0a259f11d84d753f58ae7050813cd6a",
+    "Modulefile": "c277c321b9dfb8a67d63a45b2d3f4847",
+    "templates/ss5.sysconfig.erb": "e2fbc56c61834ab23971ce151b285591",
+    "templates/ss5.conf.erb": "1f62b95585a5368fdbe9ab5fffdaa128",
+    "manifests/init.pp": "040eb84b46a427bbd33e93adfd590aa5"
+  },
+  "author": "mdobrev",
+  "types": [
+
+  ]
+}

@@ -1,0 +1,18 @@
+# File managed by Puppet
+#
+SS5_OPTS=""
+<% if @ss5_user != "nobody" -%>
+export SS5_SOCKS_USER=<%= @ss5_user %>
+<% end -%>
+<% if @ss5_port != "1080" -%>
+export SS5_SOCKS_PORT="<%= @ss5_port %>"
+<% end -%>
+<% if @ss5_bindaddr != "0.0.0.0" -%>
+export SS5_SOCKS_ADDR="<%= @ss5_bindaddr %>"
+<% end -%>
+export SS5_CONFIG_FILE="<%= @config_file %>"
+export SS5_PASSWORD_FILE="<%= @ss5_password_file %>"
+export SS5_LOG_FILE="<%= @ss5_log_file %>"
+export SS5_PEERS_FILE="<%= @ss5_peers_file %>"
+
+# File managed by Puppet
