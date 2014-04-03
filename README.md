@@ -1,6 +1,6 @@
 # mdobrev-ss5 #
 
-A module to install and configure SS5 SOCKS [proxy](http://ss5.sourcefourge.net/). You need to build your own RPMs
+A module to install and configure SS5 SOCKS [proxy](http://ss5.sourceforge.net/). You need to build your own RPMs
 in order to use this module.
 
 # Examples #
